@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+    padding-left: 6%;
+}
+
+.smallTitle{
+    font-weight: bold;
+}
+
+#info, #support, #reasonTXT{
+    display: block;
+    text-align: left;
+    padding-left: 3%;
+}
+
+#infoList label{ /* shipping요소의 하위 li label요소에 적용 */
+    width: 80px;
+    float: left;   /* 좌우 배치 */
+    display: block;
+    text-align: left;   /* 텍스트 왼쪽 정렬 */
+}
+
+form{
+    width: 500px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/apply.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <h1>자바, 스프링 개발자 지원서</h1>
+            <p id="formInfo">Java, Spring, LLM에 대한 기술적 이해와 경험이 있는 분을 모십니다.</p>
+            <hr>  
+            
+            <div id="info">
+                <p class="smallTitle">개인정보</p>
+                <ul id="infoList">
+                    <li>
+                        <label for="name">이름 </label>
+                        <input type="text" id="name" placeholder="공백없이 입력하세요">
+                    </li>
+                    <li>
+                        <label for="tel">연락처 </label>
+                        <input type="tel" id="tel">
+                    </li>
+                </ul>
+            </div>
+
+            <div id="support">
+            <p class="smallTitle">지원분야</p>
+            <ul>
+                    <li>
+                        <input type="radio" name="job" value="Java" id="java">
+                        <label for="java">자바개발자</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="job" value="Spring" id="spring">
+                        <label for="spring">스프링, 스프링부트 개발자</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="job" value="AI" id="ai">
+                        <label for="ai">AI Agent 개발자</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="reasonTXT">
+                <label for="reason" class="smallTitle">지원동기</label><br><br>
+                <textarea id="reason" cols="40" rows="4" placeholder
+                    ="본사 지원 동기를 간략히 써 주세요."></textarea>
+
+                <br>
+                <input type="submit" value="접수하기">
+                <input type="reset" value="다시 쓰기">
+            </div>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

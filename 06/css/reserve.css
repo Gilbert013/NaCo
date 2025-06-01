@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#reserve li label{
+    width: 80px;
+    float: left;  
+    display: block;
+    text-align: left;
+}
+
+li {
+    margin: 10px;
+}
