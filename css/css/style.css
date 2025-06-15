@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 100vh;
+    box-shadow: 2px 2px 2px #000;
+    position: fixed;
+}
+
+#youtube-header {
+    position: relative;
+    margin-left: 10%;
+    width: 90%;
+    height: 150px;
+
+    display: flex;
+}
+
+.youtube-header-content {
+
+}
+
+#youtube-icon {
+    width: 50px;
+    height: 150px;
+}
+
+#search-area {
+    margin-left: 20%;
+    line-height: 50px;
+}
